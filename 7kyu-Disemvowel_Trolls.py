@@ -1,4 +1,4 @@
-'''
+"""
 Disemvowel Trolls
 https://www.codewars.com/kata/52fba66badcd10859f00097e
 Solved 01-24-2017
@@ -12,8 +12,7 @@ A common way to deal with this situation is to remove all of the vowels from the
 Your task is to write a function that takes a string and return a new string with all vowels removed.
 
 For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
-
-'''
+"""
 
 def disemvowel(string):
     vowels = "aAeEiIoOuU"
