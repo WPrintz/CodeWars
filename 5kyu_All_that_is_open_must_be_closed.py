@@ -1,5 +1,9 @@
 """
+All that is open must be closed...
+https://www.codewars.com/kata/55679d644c58e2df2a00009c
+Solved 02-03-2017
 
+Description: 5 kyu
 
 
 Your challenge in this kata is to write a piece of code to validate that a supplied string is balanced.
@@ -46,9 +50,7 @@ def is_balanced(source, caps):
     tries = 0
     while len(brack_list)>0 and tries <= max_tries:
         for i,key in enumerate(brack_list[:-1]):
-            # print('Try:', source[brack_list[i]], source[brack_list[i + 1]])
             if source[key] in brack_pair.keys() and brack_pair[source[key]] == source[brack_list[i+1]]:
-                # print('match')
                 brack_list.pop(i + 1)
                 brack_list.pop(i)
                 break
@@ -60,6 +62,7 @@ def is_balanced(source, caps):
         return False
 
 
+#Run Tests
 print(is_balanced("(Sensei says yes!)", "()") == True)
 print(is_balanced("(Sensei says no!", "()") == False)
 
