@@ -548,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487214817726</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add new solution">
+      <created>1487214837200</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1487214837200</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -611,7 +618,8 @@
     <MESSAGE value="Fixed error in test suite" />
     <MESSAGE value="Add solution" />
     <MESSAGE value="Add solutions and fix typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add solutions and fix typos" />
+    <MESSAGE value="Add new solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
