@@ -1,7 +1,7 @@
 '''
 Get your steppin' on son
 https://www.codewars.com/kata/get-your-steppin-on-son/
-Solved
+Solved 08-02-2017
 
 Description: 5 kyu
 
